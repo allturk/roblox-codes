@@ -17,7 +17,14 @@
 
 -- Players Service
 
-local Players=game:GetService("Players")
-Players.PlayerAdded:Connect(function(player)
-    print(player.Name.." has joined the game!")
-end)    -- onPlayerAdded
+-- local Players=game:GetService("Players")
+-- Players.PlayerAdded:Connect(function(player)
+--     print(player.Name.." has joined the game!")
+-- end)    -- onPlayerAdded
+
+word="hello"
+manyWord=[[rer eeke eekhehekewwelhweew
+we mwlewelşew jewşjfnkflefkwe fjewf
+wemwşeewşlew]]
+print(word)
+print(manyWord)
